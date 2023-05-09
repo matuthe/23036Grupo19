@@ -1,11 +1,10 @@
 body {
-  background-color: black;
+  background-color: antiquewhite;
   margin: 0;
 }
 
 .contenedor {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -26,6 +25,7 @@ body {
   }
   .footer { grid-area: 6 / 1 / 7 / 6; 
     background-color: blueviolet;
+
   
   }
 
@@ -38,7 +38,7 @@ body {
   display: inline-block;
   margin-right: 30px;
 
-  /* section{
+/*section{
     display: flex;
     width: 600px;
     height: 430px;
@@ -56,4 +56,4 @@ body {
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
-  } */
+  }*/
