@@ -4,15 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+    <!--Los estilos de la galeria los agrego en este archivo, luego los unificamos-->
+    <link rel="stylesheet" href="../css/estilos_galeria.css">
+
     <title>Galeria de imagenes</title>
 </head>
 <body>
-    <section>
+    <div class="contenedor">
+        <div header="header"></header>
+        <nav class="menu">
+            <p class="inicio"><a href="index.html" target="_blank">INICIO</a></p>
+            <p class="galeria"><a href="galeria.html" target="_blank">GALERIA</a></p>
+            <p class="faq"><a href="faq.html" target="_blank">PREGUNTAS FRECUENTES</a></p>
+            <p class="contacto"><a href="contacto.html" target="_blank">CONTACTO</a></p>
+        </nav>
+
+
+        <section class="container_galeria">
+
+            <nav>            
+                <div class="Filtro">
+
+                    <ul class="nav-filtro">
+                        <li>
+                            <img src="../img/ropa.png" align="left" width="26" /> 
+                            <a>Indumentaria </a>
+                        </li>
+                        <li>
+                            <img src="../img/calzado.png" align="left" width="26"/> 
+                            <a>Calzado </a>
+                        </li>
+                        <li>
+                            <img src="../img/accesorios.png" align="left" width="26"/> 
+                            <a>Accesorios </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="Galeria">  
+
+                <div class="container_card">
+
+                    <div class="card" style="background-image: url('../img/remera1.jpg')">
+                        <!--<img src="../img/remera1.jpg">-->
+                        <p>Card 1</p>
+                    </div>
+                    <div class="card" style="background-image: url('../img/remera2.jpg')">
+                        <p>Card 2</p>
+                    </div>
+                    <div class="card" style="background-image: url('../img/remera3.jpg')">
+                        <p>Card 3</p>
+                    </div>
+                    <div class="card" style="background-image: url('../img/remera4.jpg')">
+                        <p>Card 4</p>
+                    </div>
+                    <div class="card" style="background-image: url('../img/remera5.jpg')">
+                        <p>Card 5</p>
+                    </div>
+                    <div class="card" style="background-image: url('../img/remera6.jpg')">
+                        <p>Card 6</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <footer class="footer">
+            <p class="derechos">Página creada por el grupo 19, comision 23036 Codo a Codo. Todos los derechos reservados &copy;</p>
+        </footer>
+     </div>
+
+
+<!--     <section>
         <img src="img/buzo.jpg" alt="">
         <img src="img/campera.jpg" alt="">
         <img src="img/jean.jpg" alt="">
         <img src="img/remera negra.jpg" alt="">
-    </section>
+    </section> -->
 </body>
 </html>
