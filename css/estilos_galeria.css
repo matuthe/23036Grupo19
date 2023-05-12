@@ -54,16 +54,16 @@
     display: grid;
     
     gap: 10px 10px;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); 
+
+/*  grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: repeat(2, 1fr); */
 
 /*    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
 
     justify-content: stretch; 
-
     align-items: stretch;
     justify-items: stretch;
-    
   }
   
 
@@ -80,16 +80,14 @@
 	background-position: center center;
     background-clip: content-box;
     
-    align-self: stretch;
-	/* Flexbox */
-	/* width: calc(33.33% - 20px); */
+    /*align-self: stretch; */
 }
 
-/* .card div img {
-    width: calc(33.33% - 20px);
-    height: calc(33.33% - 20px);
-    object-fit: cover;
-  } */
+.card img {
+    object-position: center;
+}
+
+
 
 
   

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
     
+
+   <!--Los js de la galeria los agrego en este archivo, luego los unificamos-->
+    <!-- <script src="../javascript/jquery-3.7.0.js"></script>
+    <script src="../javascript/js_galeria.js"></script> -->
+
     <!--Los estilos de la galeria los agrego en este archivo, luego los unificamos-->
     <link rel="stylesheet" href="../css/estilos_galeria.css">
 
@@ -27,18 +32,18 @@
             <nav>            
                 <div class="Filtro">
 
-                    <ul class="nav-filtro">
+                    <ul class="nav-filtro">                       
                         <li>
                             <img src="../img/ropa.png" align="left" width="26" /> 
-                            <a>Indumentaria </a>
+                            <a href= "#" category="Indumentaria" >Indumentaria </a>
                         </li>
                         <li>
                             <img src="../img/calzado.png" align="left" width="26"/> 
-                            <a>Calzado </a>
+                            <a href= "#" category="Calzado" >Calzado </a>
                         </li>
                         <li>
                             <img src="../img/accesorios.png" align="left" width="26"/> 
-                            <a>Accesorios </a>
+                            <a href= "#" category="Accesorios" >Accesorios </a>
                         </li>
                     </ul>
                 </div>
@@ -48,25 +53,61 @@
 
                 <div class="container_card">
 
-                    <div class="card" style="background-image: url('../img/remera1.jpg')">
-                        <!--<img src="../img/remera1.jpg">-->
-                        <p>Card 1</p>
+                    <div class="card" category="Indumentaria" >
+                        <img src="../img/remera1.jpg" alt="Remera Numero 1" title="Remera 1" itemprop="image" width="75%" height="75%">
+
+                        <p>Remera New Balance</p>
+                        <p>$ 3.500</p>
                     </div>
-                    <div class="card" style="background-image: url('../img/remera2.jpg')">
+                    <div class="card" category="Indumentaria">
+                        <img src="../img/remera2.jpg" alt="Remera Numero 2" title="Remera 2" itemprop="image" width="75%" height="75%">
                         <p>Card 2</p>
                     </div>
-                    <div class="card" style="background-image: url('../img/remera3.jpg')">
+                    <div class="card" category="Indumentaria">
+                        <img src="../img/remera3.jpg" alt="Remera Numero 3" title="Remera 3" itemprop="image" width="75%" height="75%">
                         <p>Card 3</p>
                     </div>
-                    <div class="card" style="background-image: url('../img/remera4.jpg')">
+                    <div class="card" category="Indumentaria">
+                        <img src="../img/remera4.jpg" alt="Remera Numero 4" title="Remera 4" itemprop="image" width="75%" height="75%">
                         <p>Card 4</p>
                     </div>
-                    <div class="card" style="background-image: url('../img/remera5.jpg')">
+                    <div class="card" category="Indumentaria">
+                        <img src="../img/remera5.jpg" alt="Remera Numero 5" title="Remera 5" itemprop="image" width="75%" height="75%">
                         <p>Card 5</p>
                     </div>
-                    <div class="card" style="background-image: url('../img/remera6.jpg')">
+                    <div class="card" category="Indumentaria">
+                        <img src="../img/remera6.jpg" alt="Remera Numero 6" title="Remera 6" itemprop="image" width="75%" height="75%">
                         <p>Card 6</p>
                     </div>
+
+                    <div class="card" category="Calzado">
+                        <img src="../img/zapa1.jpg" alt="Zapatilla 1" title="Zapatilla 1" itemprop="image" width="75%" height="75%">
+                        <p>Card 7</p>
+                    </div>
+                    <div class="card" category="Calzado">
+                        <img src="../img/zapa2.jpg" alt="Zapatilla 2" title="Zapatilla 2" itemprop="image" width="75%" height="75%">
+                        <p>Card 8</p>
+                    </div>
+                    <div class="card" category="Calzado">
+                        <img src="../img/zapa3.jpg" alt="Zapatilla 3" title="Zapatilla 3" itemprop="image" width="75%" height="75%">
+                        <p>Card 9</p>
+                    </div>
+
+                    <div class="card" category="Accesorios">
+                        <img src="../img/accesorio1.jpg" alt="Accesorios 1" title="Accesorios 1" itemprop="image" width="75%" height="75%">
+                        <p>Card 10</p>
+                    </div>
+                    <div class="card" category="Accesorios">
+                        <img src="../img/accesorio2.jpg" alt="Accesorios 2" title="Accesorios 2" itemprop="image" width="75%" height="75%">
+                        <p>Card 11</p>
+                    </div>
+                    <div class="card" category="Accesorios">
+                        <img src="../img/accesorio3.jpg" alt="Accesorios 3" title="Accesorios 3" itemprop="image" width="75%" height="75%">
+                        <p>Card 12</p>
+                    </div>
+
+
+
 
                 </div>
             </div>
