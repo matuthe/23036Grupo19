@@ -1,0 +1,99 @@
+body{
+  margin: 0px;
+
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.header {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height: 100px;
+
+
+}
+
+.menu {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+  background-color:azure
+
+}
+
+.menu p{
+  margin-right: 30px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.contenido {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.footer {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+
+  height: 50px;
+}
+
+.footer p{
+  text-align: center;
+  color: black    ;
+
+}
+
+.iconoContenedor {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+.iconos  {
+  font-size: 150px;
+}
+
+.divIconos {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.divIconos h3{
+  display: flex;
+  justify-content: center;
+}
