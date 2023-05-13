@@ -20,8 +20,11 @@ body{
   align-self: auto;
   order: 0;
   height: 100px;
+}
 
-
+.principal{
+  text-align: center;
+  user-select: none;
 }
 
 .menu {
@@ -34,7 +37,7 @@ body{
   height: 75px;
   align-items: center;
   justify-content: center;
-  background-color:azure
+  background-color:black;
 
 }
 
@@ -90,10 +93,29 @@ a {
 .divIconos {
   display: flex;
   flex-direction: column;
+  text-align: center;
   
 }
 
 .divIconos h3{
   display: flex;
   justify-content: center;
+}
+
+.carousel{
+  min-height: 500px;
+}
+
+.carousel .carousel-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  width: 500px;
+  height: 500px;
+}
+
+.subtitulo {
+  color: black;
 }
