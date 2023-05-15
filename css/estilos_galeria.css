@@ -30,17 +30,22 @@
 /* enlaces aparezcan uno al lado de otro */
 .nav-filtro li {
     float: left;
-    margin-top: 5px;
+    margin-top: 0px;
+}
+
+.nav-filtro img {
+    display: inline-block;
 }
 
 .nav-filtro a {
-    width:100px;
+    width:120px;
     color: inherit;
     text-decoration:none;
     text-align:center;
     color: black;
-    padding:6px 5px;
-    display:block;
+    padding:0px 0px;
+    line-height: 26px;
+    display:inline-block;
 }
 
 
@@ -54,12 +59,7 @@
     display: grid;
     
     gap: 10px 10px;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); 
-
-/*  grid-template-columns: repeat(3, 1fr);  
-    grid-template-rows: repeat(2, 1fr); */
-
-/*    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
 
     justify-content: stretch; 
     align-items: stretch;
