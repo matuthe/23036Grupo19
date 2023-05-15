@@ -14,13 +14,13 @@
 
 .Filtro {
     grid-area: Filtro; 
-    height: 50px;
+    height: 64px;
     background-color: #00a2ff;
     
 }
 
 .nav-filtro {
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
     /* estilo none para que no salgan los círculos de cada item */
     list-style-type:none;
@@ -33,9 +33,6 @@
     margin-top: 0px;
 }
 
-.nav-filtro img {
-    display: inline-block;
-}
 
 .nav-filtro a {
     width:120px;
@@ -44,9 +41,16 @@
     text-align:center;
     color: black;
     padding:0px 0px;
-    line-height: 26px;
+    line-height: 60px;
     display:inline-block;
 }
+
+
+.nav-filtro .ct_item-active{	
+    font-weight: bold;
+
+}
+
 
 
 .Galeria {
@@ -79,7 +83,8 @@
 	background-size: cover;
 	background-position: center center;
     background-clip: content-box;
-    
+
+    transition: all .4s;
     /*align-self: stretch; */
 }
 
