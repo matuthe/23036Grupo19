@@ -1,6 +1,6 @@
 body{
   margin: 0px;
-  background-color: grey;
+  background-color: #056161;
 }
 
 .contenedor {
@@ -46,8 +46,15 @@ body{
   display: inline-block;
   color: black;
   text-align: center;
-  
 
+}
+
+.navi {
+  transition: transform .2s; 
+}
+
+.navi:hover {
+  transform: scale(1.2); 
 }
 
 a {
@@ -88,6 +95,11 @@ a {
 }
 .iconos  {
   font-size: 130px;
+  transition: transform .2s; 
+}
+
+.iconos:hover {
+  transform: scale(1.5); 
 }
 
 .divIconos {
@@ -122,13 +134,4 @@ a {
 .subtitulo {
   color: black;
 }
-
-
-.iconos
- {
-    transition: transform .2s; 
-}
  
-.iconos:hover {
-    transform: scale(1.5); 
-}
