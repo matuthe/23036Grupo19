@@ -93,7 +93,8 @@
 }
 
 .card p {
-    color: blue;
-    font-weight: lighter;
+    color: black;
+    padding: 0px;
+    font-weight: bold;
 }
   
