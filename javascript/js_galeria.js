@@ -35,4 +35,28 @@ $(document).ready(function(){
 	// 		$('.product-item').css('transform', 'scale(1)');
 	// 	} setTimeout(showAll,400);
 	// });
+
+/* 
+	function renderizarGaleria(imagenes) {
+		let html = '';
+		
+		imagenes.forEach(function(imagen){
+		  html += `
+			<div class="galeria-item">
+			  <img src="${imagen.src}" alt="${imagen.alt}" width="200px" />
+			  <h3>${imagen.nombre}</h3>
+			  <p>${imagen.precio}€</p>
+			</div>
+		  `;
+		});
+		
+		$('#galeria').html(html);
+	  }
+	  
+	  $(function() {
+		renderizarGaleria(imagenes);
+	  });
+ */
+
+
 });
