@@ -73,7 +73,7 @@ function cargarProductos() {
     cad += `</div>`
     
      
-    //document.write(cad)
+    // document.write(cad)
     document.getElementById("cargar_galeria").innerHTML = cad;
     
     console.log (cad);

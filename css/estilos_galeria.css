@@ -15,7 +15,8 @@
 .Filtro {
     grid-area: Filtro; 
     height: 64px;
-    background-color: #00a2ff;
+    background-color:#df723a;  
+    /* background-color: #cce7e8 */
     
 }
 
