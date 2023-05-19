@@ -55,7 +55,7 @@
                 <div class="Filtro">
 
                     <ul class="nav-filtro">                       
-                        <li>
+                        <li class="filtro-dd">
                             <!-- <img src="../img/ropa.png" align="left" width="26" />  -->
                             <a href= "#" class="category_item" category="Indumentaria" >Indumentaria </a>
                         </li>
@@ -63,9 +63,13 @@
                             <!-- <img src="../img/calzado.png" align="left" width="26"/>  -->
                             <a href= "#" class="category_item" category="Calzado" >Calzado </a>
                         </li>
-                        <li>
+                        <li class="filtro-dd">
                             <!-- <img src="../img/accesorios.png" align="left" width="26"/>  -->
                             <a href= "#" class="category_item" category="Accesorios" >Accesorios </a>
+                            <ul class="filtro-dd-subfiltro">
+                                <li><a href="#" subcategory="Bolsos">Bolsos</a></li>
+                                <li><a href="#" subcategory="Pelotas">Pelotas</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -73,8 +77,8 @@
             
             <div class="Galeria">  
 
-                <div id="cargar_galeria"></div> 
-<!-- 
+                <!-- <div id="cargar_galeria"></div>  -->
+ 
                 <div class="container_card" >
 
                      
@@ -82,7 +86,7 @@
                     <div class="card" category="Indumentaria" >
                         <img src="../img/remera1.jpg" alt="Remera Numero 1" title="Remera 1" itemprop="image" width="75%" height="75%">
 
-                        <p>Remera New Balance
+<!--                         <p>Remera New Balance
                             <span style="color:red">
                                 <span class="material-icons-outlined">discount</span>
                             30%</span>
@@ -91,7 +95,23 @@
                         <p>
                             <span class="material-icons-outlined">credit_card</span>
                             3 cuotas de $ 1.500
-                        </p>
+                        </p> -->
+
+                        <div class="card_info">
+                            <div class="card_linea">
+                                Remera New Balance
+                                <span class="card_linea1">
+                                <span class="material-icons-outlined">discount</span>
+                                30%</span>
+                            </div>
+                            <div class="card_linea">
+                                $ 4.500 <span class="card_linea2">$ 5.000</span> 
+                            </div>
+                            <div class="card_linea">
+                                <span class="material-icons-outlined card_linea3" >credit_card</span>
+                                3 cuotas de $ 1.500
+                            </div>
+                        </div>
 
                     </div>
                     
@@ -143,7 +163,7 @@
                     </div>  
 
                 </div> 
-            -->
+            
             </div>
 
         </section>
