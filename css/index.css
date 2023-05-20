@@ -60,6 +60,12 @@ body{
 a {
   text-decoration: none;
   color: black;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.titulo{
+  font-family: 'Quicksand', sans-serif;
 }
 
 .contenido {
@@ -133,5 +139,6 @@ a {
 
 .subtitulo {
   color: black;
+  font-family: 'Shadows Into Light', cursive;
 }
  
