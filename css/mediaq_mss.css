@@ -1,0 +1,54 @@
+
+
+/*
+----- Para las medias querys
+320px — 480px: Smartphones - Dispositivos móviles
+481px — 768px: Tabletas
+769px — 1024px: Ipad grandes
+1025px — 1200px: Desktops and laptops - Computadoras de escritorio, pantallas grandes
+1201px y más —  Large screens - Pantallas extra grandes, TV
+*/
+
+/* Smartphones (portrait and landscape) ----------- */  
+@media only screen  
+and (min-width : 320px)  
+and (max-width : 480px) { 
+  /* Styles */  
+
+  }
+
+/* Tabletas (portrait and landscape) ----------- 
+@media only screen  
+and (min-width : 481px)
+and (max-width : 768px) {  
+ 
+
+  }  
+*/  
+
+
+/* iPads (portrait and landscape) ----------- */  
+/* cambie (min-width : 768px) x 481 para juntar */
+@media only screen  
+and (min-width : 481px)  
+and (max-width : 1024px) {  
+  /* Styles */  
+  
+}  
+
+/* Desktops and laptops ----------- */  
+@media only screen  
+and (min-width : 1224px) {  
+  /* Styles */  
+
+ 
+}  
+
+/* Large screens -----------   
+@media only screen  
+and (min-width : 1824px) {  
+  
+}  
+*/
+
+
