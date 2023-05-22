@@ -14,7 +14,7 @@ productos.forEach(function(item) {
     precioLista = ""
     // console.log (Number(item.descuento))
     cad += `
-        <div class="card" category="${item.category}">
+        <div class="card" category="${item.category}" subcategory="${item.subcategory}">
             <img src="${item.image}" alt="${item.descripcion}" title="${item.titulo}" itemprop="image" width="75%" height="75%">
             <div class="card_info">
                 <div class="card_linea">${item.titulo}`
@@ -46,7 +46,7 @@ cad += `</div>`
 // document.write(cad)
 // document.getElementById("cargar_galeria").innerHTML = cad;
 
-
+// console.log(cad)
     document.getElementById('cargar_galeria').innerHTML= cad;
     
 });

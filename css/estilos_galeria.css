@@ -9,7 +9,8 @@
     grid-auto-flow: column;
     grid-template-areas:
       "Filtro"
-       "Galeria";
+       "Galeria"
+       "Pie";
     }
 
 .Filtro {
@@ -20,10 +21,10 @@
     
 }
 
-
 .nav-filtro {
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
+    line-height: 50px;
     /* estilo none para que no salgan los círculos de cada item */
     list-style-type:none;
     font-size: small;
@@ -42,7 +43,7 @@
     text-align:center;
     color: black;
     padding:0px 0px;
-    line-height: 60px;
+    line-height: 50px;
     display:inline-block;
 }
 
@@ -64,9 +65,10 @@
     position: absolute;
     width: 100%;
     overflow: auto;
-    z-index: 0;
+    z-index: 1000;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
   }
+
   .filtro-dd:hover .filtro-dd-subfiltro {
     display: block;
     opacity: 1;
@@ -84,8 +86,6 @@
 
 
 
-
-
 .Galeria {
     grid-area: Galeria; 
     height: 100vh;
@@ -96,8 +96,9 @@
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
     gap: 10px 10px;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
 
     justify-content: stretch; 
     align-items: stretch;
@@ -158,4 +159,9 @@
 
 .card_linea3{
     float: left;
+}
+
+.Pie{
+    grid-area: Pie; 
+    height: 50px;
 }

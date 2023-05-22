@@ -4,9 +4,9 @@ $(document).ready(function(){
 	// $('.category_list .category_item[category="all"]').addClass('ct_item-active');
 
 	// FILTRANDO PRODUCTOS  ============================================
-
+	// Desde el Flitro General
 	$('.category_item').click(function(){
-		var catProduct = $(this).attr('category');
+		let catProduct = $(this).attr('category');
 		console.log(catProduct);
  
 		// AGREGANDO CLASE ACTIVE AL ENLACE SELECCIONADO
@@ -27,6 +27,53 @@ $(document).ready(function(){
         
 	});
 
+	// Desde el subfiltro de flitro
+	$('.subcategory_item').click(function(){
+
+		let catsubProduct = $(this).attr('subcategory');
+		console.log(catsubProduct);
+ 
+		// AGREGANDO CLASE ACTIVE AL ENLACE SELECCIONADO
+		$('.subcategory_item').removeClass('ct_item-active');
+		$(this).addClass('ct_item-active');
+
+		// OCULTANDO PRODUCTOS =========================
+		$('.card').css('transform', 'scale(0)');
+		function hideProduct(){
+			$('.card').hide();
+		} setTimeout(hideProduct,400);
+
+		// MOSTRANDO PRODUCTOS =========================
+		function showProduct(){
+			$('.card[subcategory="'+catsubProduct+'"]').show();
+			$('.card[subcategory="'+catsubProduct+'"]').css('transform', 'scale(1)');
+		} setTimeout(showProduct,400);
+        
+	});
+
+	// Desde el Carrousel
+	$('.carousel-item').click(function(){
+
+		let catsubProduct = $(this).attr('subcategory');
+		console.log(catsubProduct);
+ 
+		// AGREGANDO CLASE ACTIVE AL ENLACE SELECCIONADO
+		$('.subcategory_item').removeClass('ct_item-active');
+		$(this).addClass('ct_item-active');
+
+		// OCULTANDO PRODUCTOS =========================
+		$('.card').css('transform', 'scale(0)');
+		function hideProduct(){
+			$('.card').hide();
+		} setTimeout(hideProduct,400);
+
+		// MOSTRANDO PRODUCTOS =========================
+		function showProduct(){
+			$('.card[subcategory="'+catsubProduct+'"]').show();
+			$('.card[subcategory="'+catsubProduct+'"]').css('transform', 'scale(1)');
+		} setTimeout(showProduct,400);
+        
+	});
 	// MOSTRANDO TODOS LOS PRODUCTOS =======================
 
 	// $('.category_item[category="all"]').click(function(){
