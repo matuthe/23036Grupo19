@@ -14,11 +14,12 @@
 
 .Filtro {
     grid-area: Filtro; 
-    height: 64px;
-    /* background-color:#df723a;   */
-    background-color: #62bdd0 
+    height: 50px;
+    background-color:#e76220;  
+    /* background-color: #62bdd0  */
     
 }
+
 
 .nav-filtro {
     margin: 0px;
@@ -33,7 +34,6 @@
     float: left;
     margin-top: 0px;
 }
-
 
 .nav-filtro a {
     width:120px;
@@ -52,12 +52,13 @@
 
 }
 
-
-
 .filtro-dd {
     display: inline-block;
+    align-items: center;
+    margin-top: 0px;
     position: relative;
   }
+
   .filtro-dd-subfiltro {
     display: none;
     position: absolute;
