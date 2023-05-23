@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   /* background-color: #056161; */
-  background-color: #09baba ;  /*Propuesta*/
+  background-color: #b5b5b5 ;  /*Propuesta*/
 }
 
 .contenedor {
@@ -13,7 +13,7 @@ body{
   align-content: stretch;
 }
 
-.header {
+/* .header {
   display: block;
   flex-grow: 0;
   flex-shrink: 1;
@@ -21,6 +21,16 @@ body{
   align-self: auto;
   order: 0;
   height: 100px;
+} */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
 }
 
 .principal{
