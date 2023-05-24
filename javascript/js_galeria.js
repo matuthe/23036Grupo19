@@ -83,8 +83,37 @@ $(document).ready(function(){
 	// 	} setTimeout(showAll,400);
 	// });
 
+
+
 });
 
+	// PARA ABRIR EL MODAL CON LA INFO DE LA IMAGEN
+	// Get the modal
+	function cargarModal(parId){
+
+		// console.log ('click en imagen',parId,productos[parId-1]);
+		// idea de https://www.w3schools.com/howto/howto_css_modal_images.asp
+
+ 		let modal = document.getElementById("myModal");
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById("myImg");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+	
+		modal.style.display = "block";
+		modalImg.src = productos[parId-1].image
+		captionText.innerHTML = productos[parId-1].titulo + '<br>' + productos[parId-1].descripcion;
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		modal.style.display = "none";
+		}
+ 
+	};
 
 
 

@@ -31,7 +31,10 @@ and (max-width : 480px) {
     font-size: small;
   }
 
-
+  .modal-content {
+    width: 100%;
+  }
+  
 }
 
 /* Tabletas (portrait and landscape) ----------- 

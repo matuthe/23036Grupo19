@@ -14,7 +14,7 @@ productos.forEach(function(item) {
 
     cad += `
         <div class="card" category="${item.category}" subcategory="${item.subcategory}">
-            <img src="${item.image}" alt="${item.descripcion}" title="${item.titulo}" itemprop="image" width="75%" height="75%">
+            <img id="myImg" onclick="cargarModal(${item.id})" src="${item.image}" alt="${item.descripcion}" title="${item.titulo}" itemprop="${item.id}" width="75%" height="75%">
             <div class="card_info">
                 <div class="card_linea">${item.titulo}`
                 
