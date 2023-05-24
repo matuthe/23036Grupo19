@@ -110,7 +110,7 @@ a {
   margin: 100px;
 }
 .iconos  {
-  font-size: 130px;
+  font-size: 120px;
   transition: transform .2s; 
 }
 
@@ -135,6 +135,7 @@ a {
 
 .carousel{
   min-height: 500px;
+
 }
 
 .carousel .carousel-item{
