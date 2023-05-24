@@ -1,0 +1,52 @@
+/* 320px — 480px
+481px — 768px
+769px — 1024px
+1025px — 1200px */
+
+@media (max-width: 320px){
+    
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .menu p{
+        font-size: 10px;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+    .carousel{
+        height: 100px;
+        width: 200px;
+ 
+    }
+    
+    .iconoContenedor{
+        display: block;
+    }
+
+    .iconos{
+        font-size: 50px;
+    }
+
+    .divIconos h3{
+        font-size: 20px;
+    }
+
+    .footer p{
+        font-size: 10px;
+    }
+
+}
