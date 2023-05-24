@@ -5,12 +5,12 @@
 
 @media (max-width: 320px){
     
-
     .header {
         display: flex;
         justify-content: center;
         align-items: center;
-      }
+    }
+
     .logo{
         width: 200px;
         height: 100px;
@@ -43,15 +43,16 @@
     .footer p{
         font-size: 10px;
     }
-
 }
 
 @media (max-width: 481px){
+
     .header {
         display: flex;
         justify-content: center;
         align-items: center;
-      }
+    }
+
     .logo{
         width: 200px;
         height: 100px;
@@ -71,7 +72,6 @@
     .carousel{
         height: 100px;
         width: 200px;
- 
     }
     
     .iconoContenedor{
@@ -92,6 +92,7 @@
 }
 
 @media (max-width: 1024px){
+    
     .menu p{
         font-size: 25px;
     }
