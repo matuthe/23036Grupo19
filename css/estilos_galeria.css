@@ -3,8 +3,7 @@
 /* ----------------------------------------*/
 .container_galeria {  
     display: grid;
-    grid-template-rows: 0.2fr 1fr;
-    /*grid-template-rows: 0.25 0.25fr 0.25fr 0.25fr; */
+    grid-template-rows: 0.2fr 1fr, 0.1fr;
     gap: 0px 0px;    /*   grid-column-gap: 0px; / grid-row-gap: 0px; */
     grid-auto-flow: column;
     grid-template-areas:
@@ -15,16 +14,16 @@
 
 .Filtro {
     grid-area: Filtro; 
-    height: 50px;
-    background-color:#e76220;  
-    /* background-color: #62bdd0  */
+    /* height: 50px; */
+    /* background-color:#e76220;   */
+    background-color: rgb(28,218,255)
     
 }
 
 .nav-filtro {
     margin: 0px;
     padding: 0px;
-    line-height: 50px;
+    /* line-height: 50px; */
     /* estilo none para que no salgan los círculos de cada item */
     list-style-type:none;
     font-size: small;
@@ -50,7 +49,6 @@
 
 .nav-filtro .ct_item-active{	
     font-weight: bold;
-
 }
 
 .filtro-dd {
@@ -81,14 +79,14 @@
   }
   .filtro-dd-subfiltro a:hover {
     color: #FFFFFF;
-    background-color: #00A4BD;
+    background-color: #e76220;
   }
 
 
 
 .Galeria {
     grid-area: Galeria; 
-    height: 100vh;
+    /* height: 100vh; */
     /*background-color: lightskyblue;*/
 }
 
@@ -98,7 +96,7 @@
     margin-right: 10px;
     margin-top: 10px;
     gap: 10px 10px;
-    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
 
     justify-content: stretch; 
     align-items: stretch;
@@ -163,5 +161,5 @@
 
 .Pie{
     grid-area: Pie; 
-    height: 50px;
+    /* height: 50px; */
 }
