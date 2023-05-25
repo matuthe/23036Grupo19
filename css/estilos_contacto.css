@@ -1,4 +1,4 @@
-html {
+h/* tml {
     font-family: 'Montserrat', Arial, sans-serif;
     background: #b5b5b5;
 }
@@ -31,7 +31,7 @@ html {
     display: inline-block;
     color: black;
     text-align: center;
-}
+} 
 
 .navi {
     transition: transform .2s; 
@@ -41,11 +41,14 @@ html {
     transform: scale(1.2); 
 }
 
+
 a {
     text-decoration: none;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+*/
+
 
 input, textarea {
     color: #5A5A5A;
@@ -72,14 +75,14 @@ form {
     margin: 50px 0;
 }
 
-h1 {
+/* h1 {
     color: #1cdaff;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 7px;
     text-align: center;
     text-transform: uppercase;
-}
+} */
 
 .social {
     display: flex;
@@ -139,7 +142,7 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 
 textarea {
 	line-height: 150%;
-	height: 150px;
+	height: 50px;
 	resize: none;
     width: 100%;
 }
