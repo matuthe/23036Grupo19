@@ -48,9 +48,28 @@ document.getElementById('cargar_galeria').innerHTML= cad;
     
 });
 
-
-
-
+/* Modelo de Html que arma por cada producto
+    <div class="container_card" >
+            <div class="card" category="Indumentaria" >
+                    <img id="myImg" onclick="cargarModal(1)" src="../img/remera1.jpg" alt="Remera Numero 1" title="Remera 1" itemprop="image" width="75%" height="75%">
+                        <div class="card_info">
+                            <div class="card_linea">
+                                Remera New Balance
+                                <span class="card_linea1">
+                                <span class="material-icons-outlined">discount</span>
+                                30%</span>
+                            </div>
+                            <div class="card_linea">
+                                $ 4.500 <span class="card_linea2">$ 5.000</span> 
+                            </div>
+                            <div class="card_linea">
+                                <span class="material-icons-outlined card_linea3" >credit_card</span>
+                                3 cuotas de $ 1.500
+                            </div>
+                        </div>
+                </div>
+ 
+*/
 
 
  

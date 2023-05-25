@@ -9,66 +9,110 @@
 1201px y más —  Large screens - Pantallas extra grandes, TV
 */
 
-/* Smartphones (portrait and landscape) ----------- */  
+/* Smartphones (portrait and landscape) -------------------------------------------------- */  
 @media only screen  
 and (min-width : 320px)  
 and (max-width : 480px) { 
-  /* Styles */  
 
-  .container_card {  
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-
-  .logo {
+.logo {
     width: 90%;
-  }
-
-  .nav-filtro a {
-    width:100px;
-  }
-  
-  .menu {
+}
+.menu {
     font-size: small;
-  }
-
-  .modal-content {
     width: 100%;
-  }
+}
+
+/* Principal */
+.titulo{
+  font-size: 25px;
+}
+.subtitulo {
+  font-size: 20px;
+}
+
+.iconoContenedor{
+  display: block;
+}
+.iconos{
+  font-size: 50px;
+}
+.divIconos h3{
+  font-size: 20px;
+}
+
+/* Galeria */
+.container_card {  
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.nav-filtro a {
+  width:100px;
+}
+.modal-content {
+  width: 100%;
+}
   
 }
 
-/* Tabletas (portrait and landscape) ----------- 
-@media only screen  
-and (min-width : 481px)
-and (max-width : 768px) {  
- 
-
-  }  
-*/  
-
-
-/* iPads (portrait and landscape) ----------- */  
+/* Tabletas y iPads (portrait and landscape) ------------------------------------------------ */  
 /* cambie (min-width : 768px) x 481 para juntar */
 @media only screen  
 and (min-width : 481px)  
 and (max-width : 1024px) {  
-  /* Styles */  
+   
+.logo {
+    width: 100%;
+  }
+.menu {
+    font-size:medium;
+  }  
+
+ /* Principal */
+.titulo{
+  font-size: 30px;
+}
+.subtitulo {
+  font-size: 25px;
+}
+
+.iconoContenedor{
+  display: flex;
+}
+.iconos{
+  font-size: 80px;
+}
+.divIconos h3{
+  font-size: 20px;
+}
   
 }  
 
-/* Desktops and laptops ----------- */  
+/* Desktops and laptops ---------------------------------------------------------------- */  
 @media only screen  
 and (min-width : 1025px) {  
-  /* Styles */  
-
- 
-}  
-
-/* Large screens -----------   
-@media only screen  
-and (min-width : 1824px) {  
   
+.logo {
+    width: 100%;
+  }
+.menu {
+    font-size:medium;
+  }  
+
+ /* Principal */
+ .titulo{
+  font-size: 50px;
+}
+.subtitulo {
+  font-size: 35px;
+}
+
+.iconos{
+  font-size: 120px;
+}
+.divIconos h3{
+  font-size: 30px;
+}
+
 }  
-*/
+
 
 
