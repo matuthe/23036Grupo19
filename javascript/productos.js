@@ -296,7 +296,7 @@ descuento: "30"
         category: "Indumentaria",
         subcategory: "Camperas", 
         precio: "15900",
-        image: "../img/campera1.jpg",
+        image: "../img/campera4.jpg",
         cuotas: "0",
         descuento: "30"
         },

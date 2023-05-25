@@ -89,7 +89,7 @@ $(document).ready(function(){
 
 	// PARA ABRIR EL MODAL CON LA INFO DE LA IMAGEN
 	// Get the modal
-	function cargarModal(parId){
+function cargarModal(parId){
 
 		// console.log ('click en imagen',parId,productos[parId-1]);
 		// idea de https://www.w3schools.com/howto/howto_css_modal_images.asp
@@ -113,7 +113,7 @@ $(document).ready(function(){
 		modal.style.display = "none";
 		}
  
-	};
+};
 
 
 

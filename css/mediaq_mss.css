@@ -30,6 +30,16 @@ and (max-width : 480px) {
   font-size: 20px;
 }
 
+.carousel{
+  min-height: 300px;
+}
+.carousel .carousel-item{
+  align-items: top;
+  width: 300px;
+  height: 300px;
+}
+
+
 .iconoContenedor{
   display: block;
 }
@@ -73,6 +83,14 @@ and (max-width : 1024px) {
 .subtitulo {
   font-size: 25px;
 }
+.carousel{
+  min-height: 500px;
+}
+.carousel .carousel-item{
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
 
 .iconoContenedor{
   display: flex;
@@ -103,6 +121,14 @@ and (min-width : 1025px) {
 }
 .subtitulo {
   font-size: 35px;
+}
+.carousel{
+  min-height: 500px;
+}
+.carousel .carousel-item{
+  align-items: center;
+  width: 500px;
+  height: 500px;
 }
 
 .iconos{
