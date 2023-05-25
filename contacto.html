@@ -4,43 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/estilos_contacto.css">
     <link rel="icon" href="img/percha.ico">
     <title>SportAr | Contacto</title>
     <script src="/javascript/contacto.js"> </script>
+
+    <!-- Font Awesome (Iconos)-->
+    <script src="https://kit.fontawesome.com/0447e33465.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
+    <div class="header">
+        <header><img class="logo" src="img/logo.png" alt=""></header> 
+    </div>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <div class="header"><h1 class="principal">SportAr</h1></header> </div>
     <nav class="menu">
         <p class="navi"><a href="index.html">INICIO</a></p>
         <p class="navi"><a href="htlm/galeria.html">GALERIA</a></p>
-        <p class="navi"><a href="htlm/faq.html">FAQ</a></p>
-        <p class="navi"><a href="htlm/contacto.html">CONTACTO</a></p>
+        <p class="navi"><a href="faq.html">FAQ</a></p>
+        <p class="navi"><a href="contacto.html">CONTACTO</a></p>
     </nav>
 
-    <form action="#" method="post" id="form">
-<fieldset>
-    <legend>Reclamos de compras realizadas y devoluciones</legend>
-    <p>Iniciemos juntos tu descargo: </p>
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" name="name" required>
-    <label for="lastname">Apellido:</label>
-    <input type="text" id="lastname" name="lastname" required>
-    <label for="email">Mail:</label>
-    <input type="email" id="email" name="email" required>
-    <label for="file">Adjuntar factura de pago y remito de entrega:</label>
-    <input type="file" id="file" name="file" accept=".pdf,.jpeg" multiple>
-    <label for="reclamo">Descargo de reclamo:</label>
-    <textarea id="reclamo" name="reclamo" placeholder="Indicar cantidad y código de tus articulo." cols="30" rows="30"></textarea>
-</fieldset>
-    <button type="reset">Eliminar</button>
-    <button type="submit">Enviar</button>
-    <p id="warnings"></p>
-    </form>
-    
+    <div id="container">
+        <h1>Contáctenos</h1>
 
+        <form method="post" id="contact_form">
+            
+            <div class="nombre">
+                <label for="name"></label>
+                <input type="text" placeholder="Nombre" name="name" required>
+            </div>
+
+            <div class="apellido">
+                <label for="lastname"></label>
+                <input type="text" placeholder="Apellido" name="lastname" required>
+            </div>
+
+            <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Correo electrónico" name="email" required>
+            </div>
+
+            <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="Mandanos un Mensaje" required></textarea>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Enviar" id="boton" />
+            </div>
+            <!--<p id="warnings"></p>-->
+        </form>
+    </div>
+
+    <div class="social">
+        <a href="https://twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        
+        <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        
+        <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    </div>
+
+    <footer class="footer">
+        <p class="derechos">Página creada por el grupo 19, comision 23036 Codo a Codo. Todos los derechos reservados &copy;</p>
+    </footer>
 </body>
 </html>
