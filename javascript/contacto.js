@@ -1,5 +1,5 @@
 const nombre = document.getElementById("name");
-const email = document.getElementById("mail");
+const email = document.getElementById("email");
 const apellido = document.getElementById("lastname");
 const form = document.getElementById("form");
 const parrafo = document.getElementById("Warnings");
@@ -25,7 +25,7 @@ form.addEventListener("submit", e=>{
         parrafo.innerHTML = warnings;
     }
         else {
-            parrafo.innerHTML = "Reclamo enviado."
+            parrafo.innerHTML = "Enviado."
         }
 })
     
