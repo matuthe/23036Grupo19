@@ -4,7 +4,7 @@ const apellido = document.getElementById("lastname");
 const form = document.getElementById("contact_form");
 const parrafo = document.getElementById("warnings");
 
-form.addEventListener("submit", e=>{
+form.addEventListener("boton", e=>{
 
     e.preventDefault();
     let warnings = "";
