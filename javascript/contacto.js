@@ -1,9 +1,11 @@
 const nombre = document.getElementById("name");
-const email = document.getElementById("mail");
+const email = document.getElementById("email");
 const apellido = document.getElementById("lastname");
-const form = document.getElementById("form");
-const parrafo = document.getElementById("Warnings");
+const form = document.getElementById("contact_form");
+const parrafo = document.getElementById("warnings");
+
 form.addEventListener("submit", e=>{
+
     e.preventDefault();
     let warnings = "";
     let entrar = false;
@@ -21,7 +23,8 @@ form.addEventListener("submit", e=>{
         warnings +='El mail ingresado no es válido <br>';
         entrar = true;
     }
-    if(enviar){
+
+    if(entrar){
         parrafo.innerHTML = warnings;
     }
         else {

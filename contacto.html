@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/percha.ico">
     <title>SportAr | Contacto</title>
-    <script src="/javascript/contacto.js"> </script>
- 
  
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/mediaq.css">
@@ -40,28 +38,28 @@
             
             <div class="nombre">
                 <label for="name"></label>
-                <input type="text" placeholder="Nombre" name="name" required>
+                <input type="text" placeholder="Nombre" id="name" name="name" required>
             </div>
 
             <div class="apellido">
                 <label for="lastname"></label>
-                <input type="text" placeholder="Apellido" name="lastname" required>
+                <input type="text" placeholder="Apellido" id="lastname" name="lastname" required>
             </div>
 
             <div class="email">
                 <label for="email"></label>
-                <input type="email" placeholder="Correo electrónico" name="email" required>
+                <input type="email" placeholder="Correo electrónico" id="email" name="email" required>
             </div>
 
             <div class="message">
                 <label for="message"></label>
-                <textarea name="message" placeholder="Mandanos un Mensaje" required></textarea>
+                <textarea id="message" name="message" placeholder="Mandanos un Mensaje" required></textarea>
             </div>
 
             <div class="submit">
                 <input type="submit" value="Enviar" id="boton" />
             </div>
-            <!--<p id="warnings"></p>-->
+            <p id="warnings"></p>
         </form>
     </div>
 
@@ -82,5 +80,7 @@
     <footer class="footer">
         <p class="derechos">Página creada por el grupo 19, comision 23036 Codo a Codo. Todos los derechos reservados &copy;</p>
     </footer>
+
+    <script src="javascript/contacto.js"> </script>
 </body>
 </html>
