@@ -28,7 +28,7 @@ form.addEventListener("submit", e=>{
         parrafo.innerHTML = warnings;
     }
         else {
-            parrafo.innerHTML = "Reclamo enviado."
+            parrafo.innerHTML = "Enviado."
         }
 })
     
