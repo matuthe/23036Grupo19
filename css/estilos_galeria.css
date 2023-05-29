@@ -108,18 +108,19 @@
 .card {
 
 	border-radius: 10px;
-    border-color: black;
+  border-color: black;
 	min-height: 200px;
+  margin: 10px;
 	font-weight: bold;
 	padding: 0px;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-    background-clip: content-box;
+  background-clip: content-box;
 
-    background-color: white;
-    transition: all .4s;
+  background-color: white;
+  transition: all .4s;
     /*align-self: stretch; */
 }
 
