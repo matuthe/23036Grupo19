@@ -97,16 +97,16 @@ function cargarModal(parId){
  		let modal = document.getElementById("myModal");
 
 		// Get the image and insert it inside the modal - use its "alt" text as a caption
-		var img = document.getElementById("myImg");
-		var modalImg = document.getElementById("img01");
-		var captionText = document.getElementById("caption");
+		let img = document.getElementById("myImg");
+		let modalImg = document.getElementById("img01");
+		let captionText = document.getElementById("caption");
 	
 		modal.style.display = "block";
 		modalImg.src = productos[parId-1].image
 		captionText.innerHTML = productos[parId-1].titulo + '<br>' + productos[parId-1].descripcion;
 
 		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
+		let span = document.getElementsByClassName("close")[0];
 
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function() {
